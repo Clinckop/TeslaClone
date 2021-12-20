@@ -1,0 +1,21 @@
+.class-with-gray{
+    background-color: rgba(226, 226, 226, 0.3);
+    border: none;
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+    
+}
+.class-with-gray:hover{
+    outline: 1px solid rgba(226, 226, 226, 0.7);
+}
+
+.class-with-sign-in{
+    background-color: rgb(64, 93, 221);
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 350px;
+}

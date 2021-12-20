@@ -1,0 +1,36 @@
+.btn-with-sign-in{
+    background-color: rgb(64, 93, 221);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 336px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: small;
+}
+
+.btn-with-sign-in:hover{
+    background-color: rgb(38, 65, 184);
+}
+
+.btn-with-create{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 336px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-size: small;
+    margin-top: 35px;
+}
+
+.btn-with-create:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}

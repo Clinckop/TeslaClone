@@ -23,7 +23,7 @@ function Header() {
                 </Menu>
                 <RightMenu>
                     <a href="a" >Shop</a>
-                    <a href="a" >Account</a>
+                    <a href="/account" >Account</a>
                     <button className="btnMenu" onClick={()=> setShowSideBar(true)}>Menu</button>
                 </RightMenu> 
                     <Sidebar show={showSideBar}>
