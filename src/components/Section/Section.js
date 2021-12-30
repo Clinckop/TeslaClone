@@ -34,7 +34,7 @@ function Section(props) {
 export default Section
 
 const Wrap = styled.div`
-    width:100vw;
+    width:100%;
     height:100vh;
     background-size:cover;
     background-position:center;
@@ -43,7 +43,7 @@ const Wrap = styled.div`
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
-    background-image:${props=> `url("/images/${props.bgImage}")`}
+    background-image:${props => `url("/images/${props.bgImage}")`}
 `
 const ItemText = styled.div`
     padding-top : 15vh;
@@ -92,6 +92,8 @@ const animateDown = keyframes`
 const DownArrow = styled.img`
     margin-top:20px;
     height: 40px;
+    width:30px;
+    margin-bottom:10px;
     animation-name: ${animateDown};
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -99,5 +101,8 @@ const DownArrow = styled.img`
 
 
 const Buttons = styled.div`
-
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    //background-color:gray;
 `

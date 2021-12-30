@@ -1,119 +1,17 @@
-.sign-in{   
-    align-items: center;
-    justify-content: center;
+.sign-in{
+    background-color: yellowgreen;
     height: 100vh;
-    // background-color: aqua;
 
-    
+    .header{
+        background-color: gray;
+        // display: flex;
+        // flex: 1 0 auto;
+    }
 
     .sign-in-container{
-        width: 100%;
+        background-color: violet;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        // background-color: blueviolet;
-        height: 700px;
-
-        .container-title{
-            font-size:xx-large;
-            font-weight: 500;
-            width: 350px;
-            display: flex;
-            left:0;
-            margin-bottom: 30px;
-            // background-color: lightgreen;
-        }
-
-        .label{
-            display: flex;
-            // background-color: lightcoral;
-            left:0;
-            right: 0;
-            width: 300px;
-            margin-bottom: 18px;
-            opacity: 0.6;
-            font-weight: 500;
-        }
-
-        .links{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 300px;
-            font-size: small;
-            font-weight: 400;
-            // background-color: yellow;
-            
-            a:link{
-                color: gray;
-            }
-            
-            a:visited{
-                color: black;
-                opacity: 0.1;
-            }
-        }
-
-        .or-section{
-            display: flex;
-            margin-top: 35px;
-            // background-color: rgb(255, 153, 0);
-            width: 300px;
-            align-content: center;
-            justify-content: center;
-            .left-line{
-                margin: 0px 5px;
-                font-weight: bolder;
-                width: 150px;
-                // background-color: black;
-            }
-            .right-line{
-                margin: 0px 5px;
-                font-weight: bolder;
-                // background-color: black;
-                width: 150px;
-            }
-            label{
-                text-transform: uppercase;
-                top: auto;
-                bottom: auto;
-            }
-            // p{
-            //     border-left: 1px solid black;
-            // }
-        }
-
-        .bottom-section{
-            margin-top:100px ;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            // background-color: yellow;
-            width: 400px;
-            .wrap{
-                
-                display: flex;
-                width: 300px;
-                // background-color: yellowgreen;
-                p.one{
-                    margin: auto 20px;
-                    color: gray;
-                    font-weight: bold;
-                    font-size: 12px;
-                }
-                p.two{
-                    color: gray;
-                    font-weight: bold;
-                    font-size: 12px;
-                }
-                p.three{
-                    margin: auto 20px;
-                    color: gray;
-                    font-weight: bold;
-                    font-size: 12px;
-                }
-            }
-        }
+        flex-grow: 5;
     }
 }

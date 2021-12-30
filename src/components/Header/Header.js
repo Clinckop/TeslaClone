@@ -73,30 +73,46 @@ const Menu = styled.div`
     flex: 1;
     justify-content: center;
     a{
-        font-weight: 600;
+        font-weight: 200;
         padding: 0 10px;
         flex-wrap: nowrap;
     }
     @media(max-width:760px){
         display:none;
     }
+    a:hover{
+        background-color:gray;
+
+    }
 `
 const RightMenu = styled.div`
     display:flex;
+    padding:10px;
+
+    height:50px;
     align-items:center;
     a{
-        font-weight: 600;
+        font-weight: 200;
         margin-right: 10px;
         align-items:center;
+    }
+    a:hover{
+        background-color:rgba(0,0,0,0.1);
+        height:40px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding: 0 5px;
+        border-radius: 15px 15px 15px 15px;
     }
     .btnMenu{
         border:none;
         background-color:transparent;
-        font-weight:600;
+        font-weight:200;
         font-size:16px;
         color:#393c41;
         cursor:pointer;
-        
+
     }
     
 
@@ -120,6 +136,10 @@ const Sidebar = styled.div`
 
         a{
             font-weight:600;
+        }
+        a:hover{
+            background-color:gray;
+            
         }
     }
     

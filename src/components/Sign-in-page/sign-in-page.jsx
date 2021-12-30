@@ -1,20 +1,18 @@
 import React from "react";
-import ButtonCustome from "../Custom-Components/buttonCustom";
-import { InputCustom } from "../Custom-Components/inputCustom";
 import '../Custom-Components/inputCustom.styles.scss'
 import './sign-in-page.styles.scss';
 import AccountHeader from "./account-header";
 const SignIn = ({ variant, type, ...rest }) => { 
     return (
         <div className="sign-in">
-            <AccountHeader/>
+            <AccountHeader className="header"/>
             
             <div className="sign-in-container">
                 
                 <div className="container-title">
                         <p>Sign In</p>
                 </div>
-                <div className="label">
+                {/* <div className="label">
                     <label>Email Address</label>
                 </div>
                 <InputCustom type="text" variant="gray"/>
@@ -53,7 +51,7 @@ const SignIn = ({ variant, type, ...rest }) => {
                         <p className="two">Privacy & Legal</p>
                         <p className="three">Contact</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
